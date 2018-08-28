@@ -95,7 +95,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setTrafficEnabled(true); // To enabling traffic mode
         mMap.getUiSettings().setZoomGesturesEnabled(true); // Enable gesture zooming functionality
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker in India and move the camera
         LatLng india = new LatLng(28.5355, 77.3910);
         createMarker(mMap, india);
 
@@ -156,7 +156,7 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
             double lng = 77.3910;
 
             // Add ten cluster items in close proximity, for purposes of this example.
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 50; i++) {
 
                 double offset = i / 60d;
 
